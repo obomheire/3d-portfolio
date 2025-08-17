@@ -7,6 +7,8 @@ import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
 
 const Hero = () => {
+
+  // Animate the hero text (The text in the words.map)
   useGSAP(() => {
     gsap.fromTo(
       ".hero-text h1",

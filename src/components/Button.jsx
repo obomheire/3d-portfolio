@@ -7,7 +7,7 @@
 const Button = ({ text, className, id }) => {
   return (
     <a
-      onClick={(e) => {
+      onClick={(e) => { 
         e.preventDefault(); // Stop the link from jumping instantly
 
         const target = document.getElementById("counter"); // Find the section with ID "counter"
