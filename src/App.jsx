@@ -1,11 +1,13 @@
 import React from 'react'
 import Hero from './sections/Hero'
+import AppShowcase from './sections/ShowcaseSection'
 
 const App = () => {
   return (
     <main>
       <div>
-          <Hero />
+        <Hero />
+        <AppShowcase />
       </div>
     </main>
   )
