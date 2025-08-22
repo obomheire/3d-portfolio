@@ -72,7 +72,7 @@ const TechStack = () => {
           ))}
 
           {/* This is for the img part */}
-          {/* {techStackImgs.map((techStackIcon, index) => (
+          {/* {techStackIcons.map((techStackIcon, index) => (
             <div
               key={index}
               className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg"
