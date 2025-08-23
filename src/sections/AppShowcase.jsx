@@ -47,21 +47,6 @@ const AppShowcase = () => {
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
-          <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
-            </div>
-            <div className="text-content">
-              <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
-              </p>
-            </div>
-          </div>
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
@@ -80,6 +65,7 @@ const AppShowcase = () => {
               </div>
               <h2>YC Directory - A Startup Showcase App</h2>
             </div>
+
           </div>
         </div>
       </div>
