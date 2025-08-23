@@ -60,7 +60,7 @@ const AppShowcase = () => {
           <div className="project" ref={project1Ref}>
             <div className="image-wrapper bg-[#FFEFDB]">
               <img
-                src="/images/project1.png"
+                src="/images/project2.png"
                 alt="Project 1"
               />
             </div>
@@ -83,21 +83,21 @@ const AppShowcase = () => {
 
           <div className="project" ref={project4Ref}>
             <div className="image-wrapper bg-[#E7F6FF]">
-              <img src="/images/project1.png" alt="Project 4" />
+              <img src="/images/project3.png" alt="Project 4" />
             </div>
             <h2>Project 4</h2>
           </div>
 
           <div className="project" ref={project5Ref}>
             <div className="image-wrapper bg-[#F6E7FF]">
-              <img src="/images/project2.png" alt="Project 5" />
+              <img src="/images/project1.png" alt="Project 5" />
             </div>
             <h2>Project 5</h2>
           </div>
 
           <div className="project" ref={project6Ref}>
             <div className="image-wrapper bg-[#FFF9E7]">
-              <img src="/images/project3.png" alt="Project 6" />
+              <img src="/images/project1.png" alt="Project 6" />
             </div>
             <h2>Project 6</h2>
           </div>
