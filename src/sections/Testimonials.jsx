@@ -11,12 +11,12 @@ const Testimonials = () => {
           sub="⭐️ Customer feedback highlights"
         />
 
-        <div className="lg:columns-3 md:columns-2 columns-1 mt-16">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-16">
           {testimonials.map((testimonial, index) => (
             <GlowCard card={testimonial} key={index} index={index}>
               <div className="flex items-center gap-3">
-                <div>
-                  <img src={testimonial.imgPath} alt="" />
+                <div className="w-12 h-12 rounded-full overflow-hidden">
+                  <img src={testimonial.imgPath} alt={testimonial.name} className="w-full h-full object-cover" />
                 </div>
                 <div>
                   <p className="font-bold">{testimonial.name}</p>
