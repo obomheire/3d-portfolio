@@ -222,46 +222,46 @@ const expCards = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Ifeanyi Otiwa",
+    mentions: "@ifeanyiotiwa",
     review:
-      "I can’t say enough good things about Zack. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+      "I can’t say enough good things about Zack. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding. bbbbbbbb bbbbbbb bbbbbbbb",
+    imgPath: "/images/otiwa.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Mohammed Hassan",
+    mentions: "@emperohm",
     review:
-      "Working with Zack was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+      "Working with Zack was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched.",
+    imgPath: "/images/emperor.png",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Naheem Adedokun",
+    mentions: "@naheemadedokun",
     review:
-      "Collaborating with Zack was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Zack's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Zack is the ideal partner.",
-    imgPath: "/images/client2.png",
+      "Collaborating with Zack was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Zack's enthusiasm for every facet of development truly stands out.",
+    imgPath: "/images/naheem.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Valentine Egbonyi",
+    mentions: "@valentineegbonyi",
     review:
-      "Zack was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "Zack is an exceptional software engineer who combines strong technical expertise with innovative problem-solving. His work on AI integration, scalable APIs, and performance optimization at Medscroll significantly improved student engagement, platform reliability, and overall efficiency.",
+    imgPath: "/images/val.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Oluwasanmin Owoka",
+    mentions: "@sanmiowoka",
     review:
-      "Zack’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+      "Zack’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch.",
+    imgPath: "/images/sanmi.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Samuel Flores",
+    mentions: "@samuel",
     review:
       "Zack was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+    imgPath: "/images/samuel.png",
   },
 ];
 
