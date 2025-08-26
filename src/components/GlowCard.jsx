@@ -1,8 +1,9 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 const GlowCard = ({ card, index, children }) => {
   // refs for all the cards
   const cardRefs = useRef([]);
+  const [isExpanded, setIsExpanded] = useState(false);
 
   // when mouse moves over a card, rotate the glow effect
   const handleMouseMove = (index) => (e) => {
@@ -25,12 +26,18 @@ const GlowCard = ({ card, index, children }) => {
     card.style.setProperty("--start", angle + 60);
   };
 
+  const maxLength = 200; // Maximum characters to show before truncating
+  const shouldTruncate = card.review.length > maxLength;
+  const displayText = shouldTruncate && !isExpanded 
+    ? `${card.review.slice(0, maxLength)}...` 
+    : card.review;
+
   // return the card component with the mouse move event
   return (
     <div
       ref={(el) => (cardRefs.current[index] = el)}
       onMouseMove={handleMouseMove(index)}
-      className="card card-border timeline-card rounded-xl p-10 mb-5 break-inside-avoid-column"
+      className="card card-border timeline-card rounded-xl p-10 mb-5 break-inside-avoid-column h-[400px] overflow-hidden"
     >
       <div className="glow"></div>
       <div className="flex items-center gap-1 mb-5">
@@ -38,8 +45,16 @@ const GlowCard = ({ card, index, children }) => {
           <img key={i} src="/images/star.png" alt="star" className="size-5" />
         ))}
       </div>
-      <div className="mb-5">
-        <p className="text-white-50 text-lg">{card.review}</p>
+      <div className="mb-5 relative">
+        <p className="text-white-50 text-lg">{displayText}</p>
+        {shouldTruncate && (
+          <button
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="text-blue-400 hover:text-blue-500 mt-2 font-medium transition-colors"
+          >
+            {isExpanded ? "Read Less" : "Read More"}
+          </button>
+        )}
       </div>
       {children}
     </div>

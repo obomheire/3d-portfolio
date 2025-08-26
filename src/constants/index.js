@@ -225,21 +225,21 @@ const testimonials = [
     name: "Ifeanyi Otiwa",
     mentions: "@ifeanyiotiwa",
     review:
-      "I can’t say enough good things about Zack. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding. bbbbbbbb bbbbbbb bbbbbbbb",
+      "Zack played a key role in building and scaling BetPawa’s betting platform, delivering secure, high-performance systems that handled millions of real-time transactions with reliability. His contributions to payments integration, live betting features, and platform optimization greatly improved user experience, engagement, and overall system resilience.",
     imgPath: "/images/otiwa.png",
   },
   {
     name: "Mohammed Hassan",
     mentions: "@emperohm",
     review:
-      "Working with Zack was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched.",
+      "Zack was a key driver of innovation at Lisbon Platform, where he engineered scalable APIs, AI-powered tools, and real-time tracking systems that transformed logistics operations. His ability to balance technical depth with business impact made him invaluable in improving compliance, reducing costs, and delivering a more reliable customer experience.",
     imgPath: "/images/emperor.png",
   },
   {
     name: "Naheem Adedokun",
     mentions: "@naheemadedokun",
     review:
-      "Collaborating with Zack was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Zack's enthusiasm for every facet of development truly stands out.",
+      "Zack was instrumental in developing and delivering a full hospital management system that streamlined patient care, scheduling, and billing operations. His strong backend and frontend expertise, combined with a focus on security and performance, significantly improved efficiency and reliability across the platform",
     imgPath: "/images/naheem.png",
   },
   {
@@ -253,14 +253,14 @@ const testimonials = [
     name: "Oluwasanmin Owoka",
     mentions: "@sanmiowoka",
     review:
-      "Zack’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch.",
+      "Zack was instrumental in scaling BetPawa’s betting platform to handle high-volume, real-time transactions during peak events. His expertise in payments, security, and live feature development not only boosted performance and compliance but also created a smoother, more engaging experience for millions of users.",
     imgPath: "/images/sanmi.png",
   },
   {
-    name: "Samuel Flores",
-    mentions: "@samuel",
+    name: "Samuel Ayodele",
+    mentions: "@samuelayodele",
     review:
-      "Zack was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "Zack brought exceptional backend expertise to Lisbon Platform, building real-time logistics systems that greatly improved delivery accuracy, payment processing, and customer support. His work on AI-powered assistants, secure integrations, and cost-optimized infrastructure directly enhanced reliability, scalability, and user satisfaction across the platform.",
     imgPath: "/images/samuel.png",
   },
 ];
