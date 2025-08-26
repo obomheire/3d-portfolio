@@ -28,8 +28,8 @@ const Hero = () => {
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
             <div className="hero-text">
-              <h1>
-                Shaping
+              <h2>
+                Turning
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
@@ -47,18 +47,18 @@ const Hero = () => {
                     ))}
                   </span>
                 </span>
-              </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              </h2>
+              <h2>into Impactful Solutions</h2>
+              <h2>that Deliver Measurable</h2>
+              <h2>Outcomes</h2>
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Adrian, a developer based in Croatia with a passion for
-              code.
+              Hi, I’m Zack, a software developer based in Nigeria with a passion for building <br /> impactful solutions through code.
             </p>
 
             <Button
-              text="See My Work"
+              text="My Work"
               className="md:w-80 md:h-16 w-60 h-12"
               id="counter"
             />

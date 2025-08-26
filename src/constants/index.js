@@ -18,97 +18,107 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "Insights", imgPath: "/images/ideas.svg" },
+  { text: "Strategies", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "Insights", imgPath: "/images/ideas.svg" },
+  { text: "Strategies", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
+  { value: 7, suffix: "+", label: "Years of Experience" },
+  { value: 15, suffix: "+", label: "Satisfied Clients" },
+  { value: 95, suffix: "+", label: "Completed Projects" },
   { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "/images/logos/mamo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: "/images/logos/unionbank.png",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: "/images/logos/betpawa.png",
+  },
+
+  {
+    imgPath: "/images/logos/apifonica.png",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "/images/logos/heckerbella.png",
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: "/images/logos/loopscribe.svg",
   },
   {
-    imgPath: "/images/logos/company-logo-6.png",
+    imgPath: "/images/logos/secure-sitizen.png",
   },
   {
-    imgPath: "/images/logos/company-logo-7.png",
+    imgPath: "/images/logos/lisbon.png",
   },
   {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: "/images/logos/medscroll.png",
   },
 ];
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    imgPath: "/images/innovation.png",
+    title: "Innovative Problem-Solving",
+    desc: "Approaching challenges with creativity and technical expertise to build effective solutions.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Clear & Consistent Communication",
+    desc: "Providing consistent updates and maintaining transparency at every stage of a project.",
+  },
+  {
+    imgPath: "/images/collaboration.png",
+    title: "Collaborative Mindset",
+    desc: "Thriving in team environments by contributing ideas, sharing knowledge, and driving projects forward.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Deadline Commitment",
+    desc: "Ensuring projects are delivered on schedule without compromising quality or performance.",
+  },
+  {
+    imgPath: "/images/scalable.png",
+    title: "Scalable Development",
+    desc: "Designing and implementing software that grows seamlessly with user needs and business goals.",
+  },
+  {
+    imgPath: "/images/seo.png",
+    title: "Commitment to Quality",
+    desc: "Crafting high-quality solutions with precision and meticulous attention to detail.",
   },
 ];
 
 const techStackImgs = [
   {
-    name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    name: "Backend Developer",
+    imgPath: "/images/logos/node.png",
   },
   {
     name: "Python Developer",
     imgPath: "/images/logos/python.svg",
   },
   {
-    name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    name: "React Developer",
+    imgPath: "/images/logos/react.png",
   },
   {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    name: "Cloud Computing",
+    imgPath: "/images/logos/aws.png",
   },
   {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
+    name: "AI-powered Tools",
+    imgPath: "/images/logos/cursor-ai.png",
   },
 ];
 
@@ -148,102 +158,110 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+      "Zack applied creativity and technical expertise to build scalable AI-powered systems, greatly improving platform speed and user experience.",
+    imgPath: "/images/logos/medscroll.png",
+    logoPath: "/images/logos/medscroll.png",
+    title: "Backend Developer",
+    date: "July 2024 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Built and maintained high-performance backend systems with PostgreSQL and MySQL, powering medical learning platforms used by students and professionals.",
+      "Designed and deployed scalable GraphQL and REST APIs for real-time progress tracking, course delivery, and integration with external medical databases.",
+      "Implemented fault-tolerant monitoring, logging, and alerting pipelines to ensure high system availability.",
+      // "Ensured engineering best practices with automated testing, peer reviews, CI/CD, and modern DevOps pipelines.",
+      // "Collaborated with cross-functional teams (educators, clinicians, product) to deliver features that improved engagement and outcomes.",
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+      "Zack’s contributions to Lisbon’s backend systems were outstanding. He consistently approached complex challenges with a problem-solving mindset, driving performance and scalability improvements.",
+    imgPath: "/images/logos/lisbon.png",
+    logoPath: "/images/logos/lisbon.png",
+    title: "Backend Developer",
+    date: "November 2023 - June 2024",
+    responsibilities: [
+      "Architecting and deploying high-performance backend systems to streamline logistics operations and ensure reliable delivery services.",
+      "​​Design and maintain RESTful and event-driven APIs to support real-time shipment tracking, intelligent route optimization, and seamless integration with third-party platforms.",
+      "Develop scalable data models and storage strategies using MySQL and MongoDB to support complex logistics workflows, from inventory and warehouse management to last-mile delivery.",
+      // "Enhancing system reliability through advanced monitoring, logging, and fault-tolerant designs.",
+      // "Implement robust CI/CD pipelines to enable rapid, safe deployments and maintain high development velocity across distributed teams.",
+    ],
+  },
+  {
+    review:
+      "Zack’s work on Hekerbella’s applications brought quality and efficiency, delivering solutions that enhanced user experience and aligned with product goals.",
+    imgPath: "/images/logos/heckerbella.png",
+    logoPath: "/images/logos/heckerbella.png",
     title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    date: "September 2019 – October 2021",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Developed scalable and high-performance backend services using NestJS and TypeScript, powering core hospital operations such as patient management, appointment scheduling, billing, and reporting.",
+      "Built responsive and user-friendly frontend interfaces using React, ensuring a smooth user experience for doctors, staff, and administrators.",
+      "Designed and maintained RESTful APIs to handle communication between frontend and backend, including patient data management, calendar scheduling, and treatment records.",
+      // "Implemented robust authentication and role-based authorization systems, securing sensitive patient and hospital data across the full stack.",
+      // "Integrated payment gateways and SMS APIs to support secure billing and real-time notifications.",
+      // "Managed MongoDB databases, designing schemas and optimizing queries for efficient access to critical medical data",
+      // "Conducted end-to-end testing, debugging, and deployment of features to ensure high reliability in production.",
     ],
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+      "Zack’s work at BetPawa delivered high-quality, efficient solutions that strengthened platform reliability and enhanced the online betting experience.",
+    imgPath: "/images/logos/betpawa.ico",
+    logoPath: "/images/logos/betpawa.ico",
+    title: "Full Stack Developer",
+    date: " December 2021 – November 2023",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Collaborated with product and design teams to deliver responsive and engaging React Native (mobile) and Angular (web) frontends for millions of users.",
+      "Built and maintained scalable backend services to support real-time betting operations, including odds management, bet placement, payouts, and wallet transactions.",
+      "Integrated with payment gateways (UIP, Remita) for seamless deposits, withdrawals, recurring billing, and real-time transaction settlement.",
+      // "Implemented robust authentication, authorization, and anti-fraud mechanisms, ensuring platform security and compliance with gaming regulations.",
+      // "Developed secure RESTful APIs for user account management, deposits, withdrawals, and transaction histories, ensuring smooth interaction across mobile and web platforms.",
     ],
-  },
-];
-
-const expLogos = [
-  {
-    name: "logo1",
-    imgPath: "/images/logo1.png",
-  },
-  {
-    name: "logo2",
-    imgPath: "/images/logo2.png",
-  },
-  {
-    name: "logo3",
-    imgPath: "/images/logo3.png",
   },
 ];
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Ifeanyi Otiwa",
+    mentions: "@ifeanyiotiwa",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+      "I can’t say enough good things about Zack. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding. bbbbbbbb bbbbbbb bbbbbbbb",
+    imgPath: "/images/otiwa.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Mohammed Hassan",
+    mentions: "@emperohm",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+      "Working with Zack was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched.",
+    imgPath: "/images/emperor.png",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Naheem Adedokun",
+    mentions: "@naheemadedokun",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
+      "Collaborating with Zack was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Zack's enthusiasm for every facet of development truly stands out.",
+    imgPath: "/images/naheem.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Valentine Egbonyi",
+    mentions: "@valentineegbonyi",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "Zack is an exceptional software engineer who combines strong technical expertise with innovative problem-solving. His work on AI integration, scalable APIs, and performance optimization at Medscroll significantly improved student engagement, platform reliability, and overall efficiency.",
+    imgPath: "/images/val.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Oluwasanmin Owoka",
+    mentions: "@sanmiowoka",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+      "Zack’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch.",
+    imgPath: "/images/sanmi.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Samuel Flores",
+    mentions: "@samuel",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+      "Zack was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+    imgPath: "/images/samuel.png",
   },
 ];
 
@@ -272,7 +290,6 @@ export {
   logoIconsList,
   counterItems,
   expCards,
-  expLogos,
   testimonials,
   socialImgs,
   techStackIcons,
