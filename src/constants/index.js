@@ -269,18 +269,22 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    link: "https://www.instagram.com/zack.bello.35/",
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
+    link: "https://web.facebook.com/obomheire/",
   },
   {
     name: "x",
     imgPath: "/images/x.png",
+    link: "https://x.com/Bello_Zack/",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/zack-bello-79a163126/",
   },
 ];
 
