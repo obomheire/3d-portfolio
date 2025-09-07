@@ -64,28 +64,28 @@ const AppShowcase = () => {
                 alt="AI Photo Craft"
               />
             </div>
-            <h2>AI Photo Craft (Next-gen AI image editing)</h2>
+            <h2 className="text-center">AI Photo Craft (Next-gen AI image editing)</h2>
           </div>
 
           <div className="project" ref={project2Ref}>
-            <div className="image-wrapper bg-[#FFE7EB]">
-              <img src="/images/health-bridge.png" alt="Health Bridge" />
+            <div className="image-wrapper bg-[#E7FFE7]">
+              <img src="/images/nuero-finance.png" alt="Nuero Finance" />
             </div>
-            <h2>Health Bridge (Reliable healthcare at your fingertips)</h2>
+            <h2 className="text-center">Nuero Finance (AI-powered financial assistant)</h2> 
           </div>
 
           <div className="project" ref={project3Ref}>
-            <div className="image-wrapper bg-[#E7FFE7]">
-              <img src="/images/snip-url.png" alt="Snip URL" />
+            <div className="image-wrapper bg-[#FFE7EB]">
+              <img src="/images/health-bridge.png" alt="Health Bridge" />
             </div>
-            <h2>Snip URL (The only URL shortening you'll ever need)</h2>
+            <h2 className="text-center">Health Bridge (Reliable healthcare at your fingertips)</h2>
           </div>
 
-             <div className="project" ref={project3Ref}>
+          <div className="project" ref={project4Ref}>
             <div className="image-wrapper bg-[#E7FFE7]">
               <img src="/images/snip-url.png" alt="Snip URL" />
             </div>
-            <h2>Snip URL (The only URL shortening you'll ever need)</h2>
+            <h2 className="text-center">Snip URL (The only URL shortening you'll ever need)</h2>
           </div>
 
         </div>
