@@ -80,7 +80,7 @@ const AppShowcase = () => {
             </div>
             <h2>Snip URL (The only URL shortening you'll ever need)</h2>
           </div>
-g
+
              <div className="project" ref={project3Ref}>
             <div className="image-wrapper bg-[#E7FFE7]">
               <img src="/images/snip-url.png" alt="Snip URL" />
