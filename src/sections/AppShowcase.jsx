@@ -60,47 +60,34 @@ const AppShowcase = () => {
           <div className="project" ref={project1Ref}>
             <div className="image-wrapper bg-[#FFEFDB]">
               <img
-                src="/images/project2.png"
-                alt="Project 1"
+                src="/images/ai-photo-craft.png"
+                alt="AI Photo Craft"
               />
             </div>
-            <h2>Project 1</h2>
+            <h2>AI Photo Craft (Next-gen AI image editing)</h2>
           </div>
 
           <div className="project" ref={project2Ref}>
             <div className="image-wrapper bg-[#FFE7EB]">
-              <img src="/images/project2.png" alt="Project 2" />
+              <img src="/images/health-bridge.png" alt="Health Bridge" />
             </div>
-            <h2>Project 2</h2>
+            <h2>Health Bridge (Reliable healthcare at your fingertips)</h2>
           </div>
 
           <div className="project" ref={project3Ref}>
             <div className="image-wrapper bg-[#E7FFE7]">
-              <img src="/images/project3.png" alt="Project 3" />
+              <img src="/images/snip-url.png" alt="Snip URL" />
             </div>
-            <h2>Project 3</h2>
+            <h2>Snip URL (The only URL shortening you'll ever need)</h2>
+          </div>
+g
+             <div className="project" ref={project3Ref}>
+            <div className="image-wrapper bg-[#E7FFE7]">
+              <img src="/images/snip-url.png" alt="Snip URL" />
+            </div>
+            <h2>Snip URL (The only URL shortening you'll ever need)</h2>
           </div>
 
-          <div className="project" ref={project4Ref}>
-            <div className="image-wrapper bg-[#E7F6FF]">
-              <img src="/images/project3.png" alt="Project 4" />
-            </div>
-            <h2>Project 4</h2>
-          </div>
-
-          <div className="project" ref={project5Ref}>
-            <div className="image-wrapper bg-[#F6E7FF]">
-              <img src="/images/project1.png" alt="Project 5" />
-            </div>
-            <h2>Project 5</h2>
-          </div>
-
-          <div className="project" ref={project6Ref}>
-            <div className="image-wrapper bg-[#FFF9E7]">
-              <img src="/images/project1.png" alt="Project 6" />
-            </div>
-            <h2>Project 6</h2>
-          </div>
         </div>
       </div>
     </div>
