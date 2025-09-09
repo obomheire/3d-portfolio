@@ -59,10 +59,12 @@ const AppShowcase = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="project" ref={project1Ref}>
             <div className="image-wrapper bg-[#FFEFDB]">
+              <a href="https://ai-photo-craft.vercel.app" target="_blank" rel="noopener noreferrer">
               <img
                 src="/images/ai-photo-craft.png"
                 alt="AI Photo Craft"
-              />
+                />
+              </a>
             </div>
             <h2 className="text-center">AI Photo Craft (Next-gen AI image editing)</h2>
           </div>
