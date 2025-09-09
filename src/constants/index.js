@@ -192,7 +192,7 @@ const expCards = [
     imgPath: "/images/logos/heckerbella.png",
     logoPath: "/images/logos/heckerbella.png",
     title: "Full Stack Developer",
-    date: "September 2019 – October 2021",
+    date: " December 2021 – November 2023",
     responsibilities: [
       "Developed scalable and high-performance backend services using NestJS and TypeScript, powering core hospital operations such as patient management, appointment scheduling, billing, and reporting.",
       "Built responsive and user-friendly frontend interfaces using React, ensuring a smooth user experience for doctors, staff, and administrators.",
@@ -209,7 +209,7 @@ const expCards = [
     imgPath: "/images/logos/betpawa.ico",
     logoPath: "/images/logos/betpawa.ico",
     title: "Full Stack Developer",
-    date: " December 2021 – November 2023",
+    date: "September 2019 – October 2021",
     responsibilities: [
       "Collaborated with product and design teams to deliver responsive and engaging React Native (mobile) and Angular (web) frontends for millions of users.",
       "Built and maintained scalable backend services to support real-time betting operations, including odds management, bet placement, payouts, and wallet transactions.",

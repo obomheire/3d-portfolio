@@ -71,7 +71,9 @@ const AppShowcase = () => {
 
           <div className="project" ref={project2Ref}>
             <div className="image-wrapper bg-[#E7FFE7]">
+              <a href="https://neuro-fin.netlify.app" target="_blank" rel="noopener noreferrer">
               <img src="/images/nuero-finance.png" alt="Nuero Finance" />
+              </a>
             </div>
             <h2 className="text-center">Nuero Finance (AI-powered financial assistant)</h2> 
           </div>
