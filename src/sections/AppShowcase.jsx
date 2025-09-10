@@ -80,7 +80,9 @@ const AppShowcase = () => {
 
           <div className="project" ref={project3Ref}>
             <div className="image-wrapper bg-[#FFE7EB]">
+              <a href="https://healthbridg.netlify.app/" target="_blank" rel="noopener noreferrer">
               <img src="/images/health-bridge.png" alt="Health Bridge" />
+              </a>
             </div>
             <h2 className="text-center">Health Bridge (Reliable healthcare at your fingertips)</h2>
           </div>
