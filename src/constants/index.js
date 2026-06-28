@@ -162,7 +162,7 @@ const expCards = [
     imgPath: "/images/logos/medscroll.png",
     logoPath: "/images/logos/medscroll.png",
     title: "Backend Developer",
-    date: "July 2024 - Present",
+    date: "May 2023 - Present",
     responsibilities: [
       "Built and maintained high-performance backend systems with PostgreSQL and MySQL, powering medical learning platforms used by students and professionals.",
       "Designed and deployed scalable GraphQL and REST APIs for real-time progress tracking, course delivery, and integration with external medical databases.",
@@ -171,13 +171,28 @@ const expCards = [
       // "Collaborated with cross-functional teams (educators, clinicians, product) to deliver features that improved engagement and outcomes.",
     ],
   },
+  // {
+  //   review:
+  //     "Zack’s contributions to Lisbon’s backend systems were outstanding. He consistently approached complex challenges with a problem-solving mindset, driving performance and scalability improvements.",
+  //   imgPath: "/images/logos/lisbon.png",
+  //   logoPath: "/images/logos/lisbon.png",
+  //   title: "Backend Developer",
+  //   date: "November 2022 - May 2023",
+  //   responsibilities: [
+  //     "Architecting and deploying high-performance backend systems to streamline logistics operations and ensure reliable delivery services.",
+  //     "​​Design and maintain RESTful and event-driven APIs to support real-time shipment tracking, intelligent route optimization, and seamless integration with third-party platforms.",
+  //     "Develop scalable data models and storage strategies using MySQL and MongoDB to support complex logistics workflows, from inventory and warehouse management to last-mile delivery.",
+  //     // "Enhancing system reliability through advanced monitoring, logging, and fault-tolerant designs.",
+  //     // "Implement robust CI/CD pipelines to enable rapid, safe deployments and maintain high development velocity across distributed teams.",
+  //   ],
+  // },
   {
     review:
       "Zack’s contributions to Lisbon’s backend systems were outstanding. He consistently approached complex challenges with a problem-solving mindset, driving performance and scalability improvements.",
     imgPath: "/images/logos/lisbon.png",
     logoPath: "/images/logos/lisbon.png",
     title: "Backend Developer",
-    date: "November 2023 - June 2024",
+    date: "November 2022 - May 2023",
     responsibilities: [
       "Architecting and deploying high-performance backend systems to streamline logistics operations and ensure reliable delivery services.",
       "​​Design and maintain RESTful and event-driven APIs to support real-time shipment tracking, intelligent route optimization, and seamless integration with third-party platforms.",
@@ -192,7 +207,7 @@ const expCards = [
     imgPath: "/images/logos/heckerbella.png",
     logoPath: "/images/logos/heckerbella.png",
     title: "Full Stack Developer",
-    date: " December 2021 – November 2023",
+    date: " May 2022 – November 2022",
     responsibilities: [
       "Developed scalable and high-performance backend services using NestJS and TypeScript, powering core hospital operations such as patient management, appointment scheduling, billing, and reporting.",
       "Built responsive and user-friendly frontend interfaces using React, ensuring a smooth user experience for doctors, staff, and administrators.",
@@ -209,7 +224,7 @@ const expCards = [
     imgPath: "/images/logos/betpawa.ico",
     logoPath: "/images/logos/betpawa.ico",
     title: "Full Stack Developer",
-    date: "September 2019 – October 2021",
+    date: "December 2020 – May 2022",
     responsibilities: [
       "Collaborated with product and design teams to deliver responsive and engaging React Native (mobile) and Angular (web) frontends for millions of users.",
       "Built and maintained scalable backend services to support real-time betting operations, including odds management, bet placement, payouts, and wallet transactions.",
