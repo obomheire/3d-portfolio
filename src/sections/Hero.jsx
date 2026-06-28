@@ -54,7 +54,7 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Zack, a software developer based in Nigeria with a passion for building <br /> impactful solutions through code.
+              Full Stack Engineer with 7+ years building robust, scalable, and production-grade services across healthcare, fintech, and sports platforms. I build Node.js, Python, Go, React, and Next.js systems with AI, RAG, and workflow automation.
             </p>
 
             <Button
